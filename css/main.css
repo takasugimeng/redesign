@@ -2,17 +2,10 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
-.example {
-  font-family: sans-serif;
-  padding: 50px;
-}
-
-
-}
-.example p {
-  line-height: 1.6;
-}
-
+ @font-face {
+   font-family: Frutiger;
+   src: url(fonts/Frutiger.ttf);
+ }
 
 .grid1{
   display: grid;
