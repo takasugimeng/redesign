@@ -7,6 +7,12 @@
    src: url(fonts/Frutiger.ttf);
  }
 
+ @font-face {
+   font-family: Frutiger light;
+   src: url(fonts/FrutigerLTStd-LightCn.otf);
+ }
+
+
 .grid1{
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
