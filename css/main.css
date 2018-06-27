@@ -1,0 +1,40 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+.example {
+  font-family: sans-serif;
+  padding: 50px;
+}
+
+
+}
+.example p {
+  line-height: 1.6;
+}
+
+
+.grid1{
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-gap: 50px;
+}
+
+.frut{
+  font-family: Frutiger
+}
+
+.frul{
+  font-family: Frutiger light
+
+}
+
+.h2 {
+  font-size: 1vw;
+  color: black;
+}
+
+.h1 {
+  font-size: 2.3vw;
+  color: black;
+}
