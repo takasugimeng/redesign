@@ -4,7 +4,7 @@
 
  @font-face {
    font-family: Frutiger;
-   src: url(fonts/Frutiger.ttf);
+   src: url(fonts/Frutiger-Cn.otf);
  }
 
  @font-face {
@@ -12,7 +12,7 @@
    src: url(fonts/FrutigerLTStd-Light.otf);
  }
 
-
+@media (min-width: 600px) {
 .grid1{
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
@@ -36,4 +36,6 @@
 .h1 {
   font-size: 2.3vw;
   color: black;
+
+}
 }
